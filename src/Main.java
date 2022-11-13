@@ -61,7 +61,8 @@ public class Main {
         System.out.println("Задача 3.2");
         System.out.println(arr [2] + ", " + arr[1] + ", " + arr[0]);
 
-        System.out.println("Задача 3.3"); ", " + myWeight[1] + ", " + myWeight[0]);
+        System.out.println("Задача 3.3");
+        System.out.println(myWeight[3] + ", " + myWeight[2] + ", " + myWeight[1] + ", " + myWeight[0]);
 
         // Задача 4
         System.out.println("Задача 4");
@@ -70,12 +71,12 @@ public class Main {
         weight2 [1] = 2;
         weight2 [2] = 3;
         for (int a = 0; a < 3; a++) {
-            if (a % 2 = 0) {
+            if (a % 2 == 0) {
                 a++;
+                System.out.println(a+1);
             }
-            System.out.println(myWeight [3] + ", " + myWeight[2] +
-            System.out.println(a);
         }
+
 
 
 
